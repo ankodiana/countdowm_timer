@@ -1,0 +1,52 @@
+
+* {
+	box-sizing: border-box;
+
+}
+
+body{
+	font-family: 'Inter', sans-serif;
+	background-image: url(https://images.unsplash.com/photo-1491002052546-bf38f186af56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1208&q=80);
+	background-size: cover;
+	background-position: center center;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 0;
+}
+
+h1{
+	color: darkslategrey;
+	font-weight: 600;
+	font-size: 4rem;
+	margin-top:10rem;
+}
+
+.countdown-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.big-text{
+	background-color: #ddebdc46;
+	border-radius: 10%;
+	padding: 2rem;
+	color: rgb(40, 43, 46);
+	font-weight: 500;
+	font-size: 6rem;
+	line-height: 1;
+	margin: 0 2rem;
+}
+
+.countdown-el {
+	text-align: center;
+
+}
+
+.countdown-el span {
+	color: beige;
+	font-size: 1rem;
+}
